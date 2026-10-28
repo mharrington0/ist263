@@ -1,0 +1,45 @@
+body {
+    background-color: #ff9c67;
+    color: #e93636;
+}
+
+a {
+    color: #56c1d8;
+}
+
+h1 {
+    color: #7e803e;
+}
+
+nav {
+    background-color: #f1dc87;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #56c1d8;
+    background-color: #e1e071;
+}
+
+nav a:hover {color: #dc04f4; background-color: #a0dcf2;}
+
+h1 {text-align: center;}
+
+.firstrow {display: flex;}
+        
+.skillstable{margin: 0 auto; flex-basis: 50%;}
+
+.skillsimage{text-align: center; flex-basis: 50%;}
+
+ @media only screen and (max-width:800px){
+  nav a {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    nav span {
+        display: none;
+    } 
+}
